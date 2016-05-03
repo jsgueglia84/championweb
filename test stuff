@@ -1,0 +1,12 @@
+mongorestore -h ds013192.mlab.com:13192 -d heroku_b4g6j8jp -u dbusr -p dbusr
+
+
+
+
+mongorestore -h ds013192.mlab.com:13192 -d heroku_b4g6j8jp -u dbusr -p dbusr db/championgg/webchampionpages.bson
+mongorestore -h ds013192.mlab.com:13192 -d heroku_b4g6j8jp -u dbusr -p dbusr db/championgg/webchampionroles.bson
+mongorestore -h ds013192.mlab.com:13192 -d heroku_b4g6j8jp -u dbusr -p dbusr db/championgg/webmatchuppages.bson
+mongorestore -h ds013192.mlab.com:13192 -d heroku_b4g6j8jp -u dbusr -p dbusr db/championgg/weboverallroledatas.bson
+mongorestore -h ds013192.mlab.com:13192 -d heroku_b4g6j8jp -u dbusr -p dbusr db/championgg/weboverallstats.bson
+mongorestore -h ds013192.mlab.com:13192 -d heroku_b4g6j8jp -u dbusr -p dbusr db/championgg/webhomepagesummaries.bson
+mongorestore -h ds013192.mlab.com:13192 -d heroku_b4g6j8jp -u dbusr -p dbusr db/championgg/webstatisticspages.bson
