@@ -1,6 +1,6 @@
 "use strict";
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/championgg');
+mongoose.connect('mongodb://dbusr:dbusr@ds013848.mlab.com:13848/heroku_7fshv9qr');
 var db = mongoose.connection;
 
 db.on('error', console.error.bind(console, 'connection error:'));
